@@ -32,7 +32,6 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
 ## 🖼️ Screenshots for Mobile and Desktop
 https://github.com/ST10495692/guuzsneaker/blob/a93c6297e6dccbec64b98479dc5e3793c60e651f/IMG_3392.png
 https://github.com/ST10495692/guuzsneaker/blob/f8f3482d37786880e5d3b1b4ae8df6d73fb2b056/IMG_3393.jpeg
-</p>
 
 ---
 
@@ -42,8 +41,9 @@ Clone the repository to explore the website or app:
 ```bash
 git clone (https://st10495692.github.io/guuzsneaker/)
 cd guuz-sneakers
+
 ---
 ## ⚙️ Updates
 Guuz sneakers updates from part 1 to a new updated with CSS style , Responsive Design and Typography.
-created with HTML with modern design and easy to use for customers.
+created with HTML with modern design.
 
