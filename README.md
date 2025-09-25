@@ -34,6 +34,7 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
   <img src="img/sneaker1.jpg" alt="Nike Air Force"width="220"/>
   <img src="img/sneaker2.jpg" alt="Nike Jordans"width="220"/>
   <img src="img/sneaker3.jpg" alt="Adidas"width="220"/>
+  ![Image Alt](
 </p>
 
 ---
