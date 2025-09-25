@@ -30,8 +30,8 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
 ---
 
 ## 🖼️ Screenshots for Mobile and Desktop
-(https://github.com/ST10495692/guuzsneaker/blob/a93c6297e6dccbec64b98479dc5e3793c60e651f/IMG_3392.png)
-</p>
+https://github.com/ST10495692/guuzsneaker/blob/a93c6297e6dccbec64b98479dc5e3793c60e651f/IMG_3392.png
+https://github.com/ST10495692/guuzsneaker/blob/f8f3482d37786880e5d3b1b4ae8df6d73fb2b056/IMG_3393.jpeg
 </p>
 
 ---
