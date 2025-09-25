@@ -1,0 +1,112 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@700&display=swap');
+
+/* Reset & Body */
+*{ margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Montserrat', sans-serif; color:#333; line-height:1.6; background:#f9f9f9; }
+
+/* Header */
+header {
+  background:#222; color:white; display:flex; justify-content:space-between; align-items:center;
+  padding:15px 20px; position:sticky; top:0; z-index:1000;
+}
+.logo { font-family:'Poppins', sans-serif; font-size:1.5rem; font-weight:700; color:#f4b400; }
+nav { display:flex; gap:15px; }
+nav a { color:white; text-decoration:none; font-weight:600; text-transform:uppercase; }
+nav a:hover, nav a.active { color:#f4b400; }
+.menu-toggle { display:none; font-size:2rem; cursor:pointer; }
+
+/* Hero Section */
+.hero {
+  background: url('../img/banner.jpg') no-repeat center/cover;
+  height:80vh; display:flex; justify-content:center; align-items:center; text-align:center; color:white;
+  position:relative;
+}
+.hero::after {
+  content:""; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.4);
+}
+.hero-content { position:relative; z-index:1; }
+.hero h1 { font-family:'Poppins', sans-serif; font-size:3rem; margin-bottom:10px; }
+.hero p { font-size:1.2rem; margin-bottom:20px; }
+.hero-btn { background:#f4b400; color:#222; padding:12px 25px; text-decoration:none; font-weight:bold; border-radius:30px; transition:0.3s; }
+.hero-btn:hover { background:#222; color:#f4b400; }
+
+/* Products Section */
+.products { padding:50px 20px; text-align:center; }
+.products h2 { font-family:'Poppins', sans-serif; font-size:2rem; margin-bottom:30px; }
+.product-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:25px; }
+.product-card { background:#f4b400; padding:15px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2); transition:transform 0.3s; }
+.product-card:hover { transform:translateY(-5px); }
+.product-card img { width:100%; height:auto; border-radius:6px; }
+.product-title { font-family:'Poppins', sans-serif; font-weight:600; margin:10px 0; }
+.price { font-family:'Oswald', sans-serif; font-weight:bold; color:#e63946; }
+
+/* Promo Banner */
+.promo { background:#f4b400; color:#222; text-align:center; padding:40px 20px; font-weight:bold; }
+.promo a { margin-top:15px; display:inline-block; }
+
+/* Footer */
+footer { background:#222; color:white; text-align:center; padding:20px; position:relative; }
+.social-icons { margin-top:10px; display:flex; justify-content:center; gap:15px; }
+.social-icons img { width:25px; filter:invert(100%); transition:0.3s; }
+.social-icons img:hover { filter:invert(50%) sepia(100%) saturate(500%) hue-rotate(320deg); }
+
+/* -------------------- Responsive -------------------- */
+@media(max-width:900px){ .hero h1{ font-size:2.2rem; } .hero p{ font-size:1rem; } }
+@media(max-width:600px){
+  nav{ display:none; flex-direction:column; background:#222; position:absolute; top:60px; right:0; width:100%; text-align:center; padding:15px 0; }
+  nav.show{ display:flex; }
+  nav a{ margin:10px 0; font-size:1.1rem; }
+  .menu-toggle{ display:block; }
+  .hero{ height:60vh; padding:0 10px; }
+  .hero h1{ font-size:1.8rem; } .hero p{ font-size:0.9rem; }
+  .products{ padding:30px 15px; }
+  .promo{ padding:25px 15px; font-size:1rem; }
+  /* Tablet */
+@media(max-width:900px){
+  .hero h1{ font-size:2.5rem; }
+  .hero p{ font-size:1.1rem; }
+  .products{ padding:40px 15px; }
+}
+
+/* Mobile */
+@media(max-width:600px){
+  nav{ display:none; flex-direction:column; background:#222; position:absolute; top:60px; right:0; width:100%; text-align:center; padding:15px 0; }
+  nav.show{ display:flex; }
+  nav a{ margin:10px 0; font-size:1.1rem; }
+  .menu-toggle{ display:block; }
+  .hero{ height:60vh; padding:0 10px; }
+  .hero h1{ font-size:1.8rem; } .hero p{ font-size:0.9rem; }
+  .product-grid{ grid-template-columns:1fr; gap:20px; }
+  .promo{ padding:25px 15px; font-size:1rem; }
+}
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* space between grid items */
+}
+.item {
+  background: #f4b400;
+  padding: 20px;
+  text-align: center;
+  /* Desktop: 4 columns */
+.product-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Tablet */
+@media (max-width:900px){
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width:600px){
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+}
