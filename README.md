@@ -11,7 +11,7 @@ Whether you’re into sports, casual wear, or street fashion, Guuz has the perfe
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Contact](#contact)
+- [Updates](#updates)
 
 ---
 
@@ -42,4 +42,8 @@ Clone the repository to explore the website or app:
 ```bash
 git clone (https://st10495692.github.io/guuzsneaker/)
 cd guuz-sneakers
+---
+## ⚙️ Updates
+Guuz sneakers updates from part 1 to a new updated with CSS style , Responsive Design and Typography.
+created with HTML with modern design and easy to use for customers.
 
