@@ -31,7 +31,7 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
 
 ## 🖼️ Screenshots for Mobile and Desktop
 <p align="center">
-  <img src="img/sneaker1.jpg" alt="Nike Air Force"width="220"/>
+  <img src="img/sneaker1.jpg" alt="https://github.com/ST10495692/guuzsneaker/blob/a93c6297e6dccbec64b98479dc5e3793c60e651f/IMG_3392.png"/>
   <img src="img/sneaker2.jpg" alt="Nike Jordans"width="220"/>
   <img src="img/sneaker3.jpg" alt="Adidas"width="220"/>
 </p>
