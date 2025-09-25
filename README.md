@@ -1,8 +1,6 @@
 # guuzsneaker
 # 👟 Guuz Sneakers
 
-![Guuz Sneakers Banner](https://example.com/banner.png)
-
 **Guuz Sneakers is a modern sneaker brand focused on style, comfort, and durability.**  
 Whether you’re into sports, casual wear, or street fashion, Guuz has the perfect sneakers for you.
 
@@ -11,11 +9,8 @@ Whether you’re into sports, casual wear, or street fashion, Guuz has the perfe
 ## 📖 Table of Contents
 - [About](#about)
 - [Features](#features)
-- [Gallery](#gallery)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -36,9 +31,9 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
 
 ## 🖼️ Gallery
 <p align="center">
-  <img src="https://example.com/sneaker1.png" alt="Sneaker 1" width="220"/>
-  <img src="https://example.com/sneaker2.png" alt="Sneaker 2" width="220"/>
-  <img src="https://example.com/sneaker3.png" alt="Sneaker 3" width="220"/>
+  <img src="img/sneaker1.jpg" alt="Nike Air Force"width="220"/>
+  <img src="img/sneaker2.jpg" alt="Nike Jordans"width="220"/>
+  <img src="img/sneaker3.jpg" alt="Adidas"width="220"/>
 </p>
 
 ---
