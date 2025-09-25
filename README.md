@@ -9,8 +9,8 @@ Whether you’re into sports, casual wear, or street fashion, Guuz has the perfe
 ## 📖 Table of Contents
 - [About](#about)
 - [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
 - [Contact](#contact)
 
 ---
@@ -29,7 +29,7 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
 
 ---
 
-## 🖼️ Gallery
+## 🖼️ Screenshots for Mobile and Desktop
 <p align="center">
   <img src="img/sneaker1.jpg" alt="Nike Air Force"width="220"/>
   <img src="img/sneaker2.jpg" alt="Nike Jordans"width="220"/>
@@ -42,7 +42,6 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
 Clone the repository to explore the website or app:
 
 ```bash
-git clone https://github.com/yourusername/guuz-sneakers.git
+git clone (https://st10495692.github.io/guuzsneaker/)
 cd guuz-sneakers
-
 
