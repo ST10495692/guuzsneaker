@@ -45,5 +45,5 @@ cd guuz-sneakers
 ---
 ## ⚙️ Updates
 Guuz sneakers updates from part 1 to a new updated with CSS style , Responsive Design and Typography.
-created with HTML with modern design.
+created with HTML.
 
