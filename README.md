@@ -1,4 +1,4 @@
-# guuzsneaker
+
 # 👟 Guuz Sneakers
 
 **Guuz Sneakers is a modern sneaker brand focused on style, comfort, and durability.**  
@@ -11,7 +11,7 @@ Whether you’re into sports, casual wear, or street fashion, Guuz has the perfe
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Updates](#updates)
+- [Reference ](#Reference)
 
 ---
 
@@ -26,24 +26,33 @@ Our mission is to bring together fashion and comfort, creating sneakers that kee
 - ✅ Lightweight & breathable materials  
 - ✅ Wide variety of sizes and colors  
 - ✅ Built for durability and comfort  
-
+The Guuz sneakers project has been updated from its initial version to incorporate new features.
+including enhanced CSS styling, responsive design, and improved typography.
+This update is built using HTML, ensuring a modern and user-friendly experience.
 ---
 
 ## 🖼️ Screenshots for Mobile and Desktop
 https://github.com/ST10495692/guuzsneaker/blob/a93c6297e6dccbec64b98479dc5e3793c60e651f/IMG_3392.png
 https://github.com/ST10495692/guuzsneaker/blob/f8f3482d37786880e5d3b1b4ae8df6d73fb2b056/IMG_3393.jpeg
 
----
+# 👟 Reference
+Anon., 2025. www.w3schools.com. [Online] 
+Available at: https://www.w3schools.com/html/- for my website design i used 3schools
+[Accessed 26 09 2025].
+Anon., 2025. www.w3schools.com. [Online] 
+Available at: https://www.w3schools.com/css/default.asp - for my website i used 3schools
+[Accessed 26 09 2025].
+Anon., November 23, 2020. unsplash.com. [Online] 
+Available at: https://unsplash.com/photos/green-and-black-nike-athletic-shoe-kP6knT7tjn4 - for pictures i used unsplash
+[Accessed 26 09 2025].
+Mishra, S., May 12, 2021. unsplash.com. [Online] 
+Available at: https://unsplash.com/photos/blue-and-white-nike-athletic-shoe-zuo1zb6mEcY- for pictures i used unsplash
+[Accessed 26 09 2025].
+
+
 
 ## ⚙️ Installation
 Clone the repository to explore the website or app:
-
 ```bash
 git clone (https://st10495692.github.io/guuzsneaker/)
 cd guuz-sneakers
-
----
-## ⚙️ Updates
-Guuz sneakers updates from part 1 to a new updated with CSS style , Responsive Design and Typography.
-created with HTML.
-
