@@ -35,18 +35,18 @@ This update is built using HTML, ensuring a modern and user-friendly experience.
 https://github.com/ST10495692/guuzsneaker/blob/a93c6297e6dccbec64b98479dc5e3793c60e651f/IMG_3392.png
 https://github.com/ST10495692/guuzsneaker/blob/f8f3482d37786880e5d3b1b4ae8df6d73fb2b056/IMG_3393.jpeg
 
-# 👟 Reference
+# Reference
 Anon., 2025. www.w3schools.com. [Online] 
-Available at: https://www.w3schools.com/html/- for my website design i used 3schools
+Available at: https://www.w3schools.com/html/
 [Accessed 26 09 2025].
 Anon., 2025. www.w3schools.com. [Online] 
-Available at: https://www.w3schools.com/css/default.asp - for my website i used 3schools
+Available at: https://www.w3schools.com/css/default.asp
 [Accessed 26 09 2025].
 Anon., November 23, 2020. unsplash.com. [Online] 
-Available at: https://unsplash.com/photos/green-and-black-nike-athletic-shoe-kP6knT7tjn4 - for pictures i used unsplash
+Available at: https://unsplash.com/photos/green-and-black-nike-athletic-shoe-kP6knT7tjn4
 [Accessed 26 09 2025].
 Mishra, S., May 12, 2021. unsplash.com. [Online] 
-Available at: https://unsplash.com/photos/blue-and-white-nike-athletic-shoe-zuo1zb6mEcY- for pictures i used unsplash
+Available at: https://unsplash.com/photos/blue-and-white-nike-athletic-shoe-zuo1zb6mEcY
 [Accessed 26 09 2025].
 
 
