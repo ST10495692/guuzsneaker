@@ -198,3 +198,47 @@ if(contactForm){
     }, 1000);
   });
 }
+let cart = [];
+let total = 0;
+
+function addToCart(name, price) {
+  cart.push({name, price});
+  total += price;
+  renderCart();
+  openCart(); // Automatically open cart on add
+}
+
+function renderCart() {
+  const cartItemsDiv = document.getElementById('cart-items');
+  const cartTotalSpan = document.getElementById('cart-total');
+
+  if(cart.length === 0) {
+    cartItemsDiv.innerHTML = 'Cart is empty';
+  } else {
+    cartItemsDiv.innerHTML = '';
+    cart.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'cart-item';
+      div.textContent = `${item.name} - $${item.price}`;
+      cartItemsDiv.appendChild(div);
+    });
+  }
+
+  cartTotalSpan.textContent = total;
+}
+
+function openCart() {
+  document.getElementById('cartModal').style.display = 'block';
+}
+
+function closeCart() {
+  document.getElementById('cartModal').style.display = 'none';
+}
+
+// Close modal if user clicks outside of it
+window.onclick = function(event) {
+  const modal = document.getElementById('cartModal');
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
