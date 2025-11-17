@@ -49,7 +49,37 @@
     <p>Email: ST10495692@rcconnect.edu.za  | Phone: +27 060 690 5582</p>
     
   </section>
+</footer>
 
+  <!-- Scripts -->
+  <script>
+    // Hamburger menu toggle
+    const toggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav-links");
+    toggle.addEventListener("click", () => nav.classList.toggle("show"));
+
+    // Fade-in on scroll
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -50px 0px" };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer){
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, appearOptions);
+    faders.forEach(fader => appearOnScroll.observe(fader));
+
+    // Optional: Simple form submission simulation
+    const form = document.getElementById('contactForm');
+    const formResponse = document.getElementById('formResponse');
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      formResponse.textContent = "Thank you! Your message has been sent.";
+      form.reset();
+    });
+  </script>
   <!-- Footer -->
   <footer class="fade-in">
     <p>&copy; 2025 Guuz Sneakers. All rights reserved.</p>
