@@ -430,3 +430,83 @@ body {
     font-size: 1rem;
   }
 }
+/* Contact Section */
+.contact {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #5fffa4;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #5fffa4;
+  box-shadow: 0 0 10px rgba(95, 255, 164, 0.3);
+  outline: none;
+}
+
+.form-btn {
+  background: #5fffa4;
+  color: #000;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-btn:hover {
+  background: #141313;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Contact Info */
+.contact-info {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
