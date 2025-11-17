@@ -47,9 +47,11 @@ Available at: https://unsplash.com/photos/green-and-black-nike-athletic-shoe-kP6
 [Accessed 26 09 2025].
 Mishra, S., May 12, 2021. unsplash.com. [Online] 
 Available at: https://unsplash.com/photos/blue-and-white-nike-athletic-shoe-zuo1zb6mEcY
-[Accessed 26 09 2025].
-
-
+[Accessed 26 09 2025]
+## Change Log 
+New Entries Part 3 
+I have added Java Script File and social media buttons , interactive images , Google Maps, buttons , new colors and More content.
+New Customised features 
 
 ## ⚙️ Installation
 Clone the repository to explore the website or app:
