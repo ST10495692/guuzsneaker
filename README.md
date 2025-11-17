@@ -10,7 +10,7 @@ Whether you’re into sports, casual wear, or street fashion, Guuz has the perfe
 - [About](#about)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
+- [Changelog ](#Chaneglog)
 - [Reference ](#Reference)
 
 ---
@@ -61,13 +61,11 @@ Hamburger menu toggle
 Fade-in scroll animation
 Dynamic product display
 Search/filter functionality
-Lightbox gallery for product images
-## ⚙️ Installation
-Clone the repository to explore the website or app:
-```bash
-git clone (https://st10495692.github.io/guuzsneaker/)
-cd guuz-sneakers
-##📘 Reference 
+Lightbox gallery for product images 
+
+---
+
+## 📘 Reference 
 Anon., 2025. www.w3schools.com. [Online] 
 Available at: https://www.w3schools.com/html/ 
 [Accessed 26 09 2025].
@@ -81,5 +79,6 @@ Mishra, S., May 12, 2021. unsplash.com. [Online]
 Available at: https://unsplash.com/photos/blue-and-white-nike-athletic-shoe-zuo1zb6mEcY
 Smith, J. (2022) ‘Modern JavaScript practices’, *Journal of Web Development*, 15(3), pp. 45–58.
 
+---
 
 
