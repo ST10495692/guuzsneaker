@@ -50,19 +50,20 @@ Available at: https://unsplash.com/photos/blue-and-white-nike-athletic-shoe-zuo1
 [Accessed 26 09 2025]
 ## ❓ Change Log 
 Feedback From Part 2
+Changed
+Updated website color theme 
+Improved logo styling and alignment in header
+Improved loading speed by compressing images
+Enough Content Added
+Fixed
+Fixed broken CSS link in index.html
+Fixed footer overlapping on small screens
+## 🔥 New Entries for Guuz Sneakers Change Log
 Added
 Added homepage hero section with background image
 Added new product card layout for sneakers
 Added responsive navigation menu for mobile
 Added hover animations for buttons and product images
-Changed
-Updated website color theme to white/black with orange accents
-Improved logo styling and alignment in header
-Improved loading speed by compressing images
-Fixed
-Fixed broken CSS link in index.html
-Fixed footer overlapping on small screens
-## 🔥 New Entries for Guuz Sneakers Change Log
 I have added Java Script File and social media buttons , interactive images , Google Maps, buttons , new colors and More content.
 New Customised features 
 Ugrade from Part 1 and Part 2
