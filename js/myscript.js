@@ -199,46 +199,62 @@ if(contactForm){
   });
 }
 let cart = [];
-let total = 0;
 
-function addToCart(name, price) {
-  cart.push({name, price});
-  total += price;
+function addToCart(name, price, inputId) {
+  const qtyInput = document.getElementById(`qty-${inputId}`);
+  const quantity = parseInt(qtyInput.value);
+
+  // Check if item already exists
+  const existingItem = cart.find(item => item.name === name);
+  if (existingItem) {
+    existingItem.quantity += quantity;
+  } else {
+    cart.push({ name, price, quantity });
+  }
+
   renderCart();
-  openCart(); // Automatically open cart on add
+  openCart();
 }
 
 function renderCart() {
-  const cartItemsDiv = document.getElementById('cart-items');
-  const cartTotalSpan = document.getElementById('cart-total');
+  const cartItemsDiv = document.getElementById("cart-items");
+  const cartCount = document.getElementById("cart-count");
+  const cartTotal = document.getElementById("cart-total");
 
-  if(cart.length === 0) {
-    cartItemsDiv.innerHTML = 'Cart is empty';
+  if (cart.length === 0) {
+    cartItemsDiv.innerHTML = "Cart is empty";
+    cartCount.textContent = 0;
+    cartTotal.textContent = 0;
   } else {
-    cartItemsDiv.innerHTML = '';
-    cart.forEach(item => {
-      const div = document.createElement('div');
-      div.className = 'cart-item';
-      div.textContent = `${item.name} - $${item.price}`;
-      cartItemsDiv.appendChild(div);
-    });
-  }
+    cartItemsDiv.innerHTML = "";
+    let totalItems = 0;
+    let totalPrice = 0;
 
-  cartTotalSpan.textContent = total;
+    cart.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "cart-item";
+      div.textContent = `${item.name} x${item.quantity} - R${item.price * item.quantity}`;
+      cartItemsDiv.appendChild(div);
+
+      totalItems += item.quantity;
+      totalPrice += item.price * item.quantity;
+    });
+
+    cartCount.textContent = totalItems;
+    cartTotal.textContent = totalPrice;
+  }
 }
 
 function openCart() {
-  document.getElementById('cartModal').style.display = 'block';
+  document.getElementById("cartModal").style.display = "block";
 }
 
 function closeCart() {
-  document.getElementById('cartModal').style.display = 'none';
+  document.getElementById("cartModal").style.display = "none";
 }
 
-// Close modal if user clicks outside of it
+// Close modal if clicking outside
 window.onclick = function(event) {
-  const modal = document.getElementById('cartModal');
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+  const modal = document.getElementById("cartModal");
+  if (event.target == modal) modal.style.display = "none";
 }
