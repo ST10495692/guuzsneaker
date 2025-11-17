@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guuz Sneakers - Shop</title>
+  <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Guuz Sneakers</div>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+       <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </header>
+<style>
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+.sneaker-icon {
+  position: absolute;
+  width:250px;
+  animation: float 4s ease-in-out infinite;
+}
+#icon1 {top: 20%; left: 10%;}
+#icon2 {top: 60%; left: 80%;}
+#icon3 {top: 40%; left: 50%;}
+</style>
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #393737;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Search Bar */
+.search-container {
+  text-align: center;
+  margin: 40px auto;
+}
+.search-container input {
+  width: 50%;
+  padding: 12px 15px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+.card {
+  background: #d3781d;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.card h3 {
+  margin: 10px 0 5px;
+  color: #0d0c0c;
+}
+.card p {
+  margin: 0;
+  color: #ccc;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center; margin-top:20px;">Guuz Sneakers Collection</h1>
+
+<!-- 🔍 Search Feature -->
+<div class="search-container">
+  <input type="text" id="searchBar" placeholder="Search sneakers...">
+</div>
+
+<!-- 👟 Product Grid -->
+<div class="product-grid" id="productGrid"></div>
+
+<script>
+// 🧩 Dynamic product data
+const sneakers = [
+  { name: "Nike Air Force 1", price: "R3500", image: "img/sneaker1.jpg" },
+  { name: "Nike Jordans ", price: "R2500", image: "img/sneaker2.jpg" },
+  { name: "Adidas Classic", price: "R1800", image: "img/sneaker3.jpg" },
+  { name: "New Balance", price: "R1500", image: "img/sneaker4.jpg" },
+  { name: "Nike Running", price: "R2000", image: "img/sneaker5.jpg" },
+];
+
+// 🖼️ Function to display sneakers dynamically
+function displayProducts(filteredSneakers) {
+  const grid = document.getElementById("productGrid");
+  grid.innerHTML = "";
+  filteredSneakers.forEach(sneaker => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.innerHTML = `
+      <img src="${sneaker.image}" alt="${sneaker.name}">
+      <h3>${sneaker.name}</h3>
+      <p>${sneaker.price}</p>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// 🕵️‍♂️ Live Search Function
+document.getElementById("searchBar").addEventListener("input", e => {
+  const searchText = e.target.value.toLowerCase();
+  const filtered = sneakers.filter(s =>
+    s.name.toLowerCase().includes(searchText)
+  );
+  displayProducts(filtered);
+});
+
+// Load all products on start
+displayProducts(sneakers);
+</script>
+<section class="hero" style="position:relative; background:#dcd6d6; height:100vh;">
+  <img src="img/sneaker6.png" id="icon1" class="sneaker-icon">
+  <img src="img/sneaker6.png" id="icon2" class="sneaker-icon">
+  <img src="img/sneaker6.png" id="icon3" class="sneaker-icon">
+  <div style="text-align:center; color:rgb(13, 11, 11); position:relative; top:40%;">
+    <h1>Guuz Sneakers</h1>
+    <p>Style Meets Motion</p>
+  </div>
+</section>
+<body>
+
+  <div class="product-card">
+    <label>Size:</label>
+    <select>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+    </select>
+    <label>Quantity:</label>
+    <input type="number" value="1" min="1">
+    <button>Add to Cart</button>
+    <h3>Description</h3>
+    <p>High-quality sneakers with comfort and style.</p>
+    </div>
+  </section>
+</div>
+<div class="card">
+                          <h3>Eco Materials</h3>
+                  <p class="muted">Upper fabrics made from recycled yarns and low-waste manufacturing processes.</p>
+</div>
+<div class="card">
+                          <h3>All-terrain Grip</h3>
+                  <p class="muted">Durable outsole pattern built for traction across city streets and trails.</p>
+</div>
+</section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Guuz Sneakers. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav-links");
+    toggle.addEventListener("click", () => nav.classList.toggle("show"));
+  </script>
+</body>
+</html>
+
+
+

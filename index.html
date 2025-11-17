@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guuz Sneakers - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --accent:#ff6b6b;
+      --accent-2:#ffb86b;
+      --radius:16px;
+      font-family:'Inter',system-ui;
+    }
+    html,body{margin:0;padding:0;background:linear-gradient(180deg,#071025,#0b0b0d);color:#e6eef6}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1200px;margin:0 auto;padding:28px}
+
+    /* Floating Social Sidebar */
+    .social-sidebar{
+      position:fixed;
+      top:50%;
+      right:20px;
+      transform:translateY(-50%) translateX(120%);
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      z-index:999;
+      animation:slideIn 1s ease forwards 0.5s;
+    }
+    @keyframes slideIn{to{transform:translateY(-50%) translateX(0)}}
+    .social-sidebar a{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      width:44px;height:44px;
+      border-radius:50%;
+      background:#1a1a1a;
+      transition:all .3s ease;
+      color:#fff;
+      box-shadow:0 0 10px rgba(0,0,0,.4);
+    }
+    .social-sidebar a:hover{transform:scale(1.15)}
+    .social-sidebar a.instagram:hover{background:#E4405F;box-shadow:0 0 14px #E4405F}
+    .social-sidebar a.facebook:hover{background:#1877F2;box-shadow:0 0 14px #1877F2}
+    .social-sidebar a.tiktok:hover{background:#010101;box-shadow:0 0 14px #25F4EE;color:#25F4EE}
+    .social-sidebar a.youtube:hover{background:#FF0000;box-shadow:0 0 14px #FF0000}
+    .social-sidebar a.pinterest:hover{background:#E60023;box-shadow:0 0 14px #E60023}
+    .social-sidebar a.linkedin:hover{background:#0A66C2;box-shadow:0 0 14px #0A66C2}
+  </style>
+  <link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+<body>
+ <!-- Floating Social Media Sidebar -->
+  <div class="social-sidebar">
+    <a href="#" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="tiktok" title="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="#" class="youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+    <a href="#" class="pinterest" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+    <a href="#" class="linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="logo">Guuz Sneakers</div>
+    <nav id="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Step Into Style</h1>
+      <p>Explore the latest sneaker releases from top brands.</p>
+      <p>Discover the ultimate combination of style, comfort, and performance with Guuz Sneakers. Designed for dreamers and doers alike</p>
+      <a href="shop.html" class="hero-btn">Shop Now</a>
+</div>
+  </section>
+  <!-- Featured Products -->
+  <section class="products">
+    <h2>Featured Sneakers</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="img/sneaker1.jpg" alt="Nike Air Force">
+        <p class="product-title">Nike Air Force</p>
+        <p>Lightweight. Breathable. Stylish.</p>
+        <p>Designed by Bruce Kilgore and introduced in 1982, the Air Force 1 was the first-ever basketball shoe to feature Nike Air technology, revolutionising the game and sneaker culture forever.</p>
+</div>
+      <div class="product-card">
+        <img src="img/sneaker2.jpg" alt="Nike Jordans">
+        <p class="product-title">Nike Jordans</p>
+        <p>Everyday comfort, premium feel.</p>
+        <p>Air Jordan is a type or brand of basketball shoes produced by Nike, Inc. since 1984. In the name “Air” means air cushion technology. “Jordan” means Michael Jordan who is an NBA basketball player.</p>
+      </div>
+      <div class="product-card">
+        <img src="img/sneaker3.jpg" alt="Adidas">
+        <p class="product-title">Adidas</p>
+        <p>Perfect balance of speed and stability.</p>
+        <p>Adidas Originals covers sports fashion styles with references to the decades between the 1940s and the 1990s. The brand has a distinctively retro old school feel. An extensive campaign was launched in 2008 to promote the label.</p>
+      </div>
+      <div class="product-card">
+        <img src="img/sneaker4.jpg" alt="new Balance">
+        <p class="product-title">new Balance</p>
+        <p>New Balance produces a wide variety of athletic and casual footwear and apparel for men, women, and children. </p>
+        <img src="img/sneaker5.jpg" alt="nike running">
+        <p class="product-title">nike running</p>
+        <p>Perfect balance of Comfort and Grip.</p>
+      </div>
+    </div>
+  </section>
+  <section id="about" style="text-align:center;">
+<h2 style="color:#5fffa4;margin-bottom:20px;">About Guuz</h2>
+<p style="max-width:700px;margin:auto;color:#141313;">Guuz Sneakers was born out of a passion for design and performance. We aim to redefine streetwear with sustainable materials, bold designs, and unmatched comfort for every step you take.</p>
+</section>
+  <!-- Promotional Banner -->
+  <section class="promo">
+    <h2>Special Promotion</h2>
+    <p>Get up to 20% off selected sneakers this week!</p>
+    <a href="shop.html" class="hero-btn">Grab the Deal</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Guuz Sneakers. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- Hamburger Menu Script -->
+  <script>
+    // You can extend this JS to dynamically show/hide the sidebar or add tooltips.
+    console.log('Guuz Sneakers social sidebar active');
+  </script>
+  <!-- Google Maps Section -->
+<section id="store-location" style="padding: 80px 50px; background:#fff; text-align:center;">
+  <h2>Visit Our Store</h2>
+  <p>Find us at our flagship store and try your favorite sneakers!</p>
+
+  <!-- Embedded Google Map -->
+  <div style="width:100%; max-width:800px; height:450px; margin:30px auto;">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.584328108467!2d28.38803097506368!3d-25.71818324435591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955f348dc6af13%3A0x768c31e788af3b25!2s14%20I%20Ehuhu%20St%2C%20Mamelodi%20Gardens%2C%20Pretoria%2C%200122!5e0!3m2!1sen!2sza!4v1761566881828!5m2!1sen!2sza" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+<script src="js/myscript.js"></script>
+</body>
+</html>
+
+
+
+
