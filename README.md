@@ -80,5 +80,9 @@ Available at: https://unsplash.com/photos/blue-and-white-nike-athletic-shoe-zuo1
 Smith, J. (2022) ‘Modern JavaScript practices’, *Journal of Web Development*, 15(3), pp. 45–58.
 
 ---
-
+## ⚙️ Installation
+Clone the repository to explore the website or app:
+```bash
+git clone (https://st10495692.github.io/guuzsneaker/)
+cd guuz-sneakers
 
